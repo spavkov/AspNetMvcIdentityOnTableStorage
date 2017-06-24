@@ -16,6 +16,8 @@ namespace CloudMockApi.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        public string Tenant { get; set; }
     }
 
     public class ApplicationDbContext : IdentityCloudContext

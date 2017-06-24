@@ -1,4 +1,6 @@
-﻿using Microsoft.Owin;
+﻿using CloudMockApi.Models;
+using CloudMockApi.Services;
+using Microsoft.Owin;
 using Owin;
 
 [assembly: OwinStartupAttribute(typeof(CloudMockApi.Startup))]
